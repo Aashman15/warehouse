@@ -1,0 +1,18 @@
+version: '3'
+services:
+  db:
+    image: mysql:8.0
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: warehouse
+      MYSQL_PASSWORD: root
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    command: bash -c "sleep 30; java -jar app.jar"
+    depends_on:
+      - db
+

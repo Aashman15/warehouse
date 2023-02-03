@@ -1,0 +1,12 @@
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/repository/AccumulativeDealRepository.java
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/advice/GlobalExceptionHandler.java
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/controller/UploadFileController.java
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/WarehouseBApplication.java
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/repository/DealRepository.java
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/controller/PageController.java
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/service/DealService.java
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/model/CSVDeal.java
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/aspect/LoggingAspect.java
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/model/Deal.java
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/service/DealServiceImpl.java
+/Users/aashman_thing/Desktop/warehouseB/src/main/java/com/aashman/warehouseb/model/AccumulativeDeal.java

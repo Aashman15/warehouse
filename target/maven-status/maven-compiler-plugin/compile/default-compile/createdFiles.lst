@@ -1,0 +1,12 @@
+com/aashman/warehouseb/advice/GlobalExceptionHandler.class
+com/aashman/warehouseb/aspect/LoggingAspect.class
+com/aashman/warehouseb/repository/DealRepository.class
+com/aashman/warehouseb/service/DealServiceImpl.class
+com/aashman/warehouseb/controller/UploadFileController.class
+com/aashman/warehouseb/service/DealService.class
+com/aashman/warehouseb/WarehouseBApplication.class
+com/aashman/warehouseb/model/AccumulativeDeal.class
+com/aashman/warehouseb/model/Deal.class
+com/aashman/warehouseb/repository/AccumulativeDealRepository.class
+com/aashman/warehouseb/controller/PageController.class
+com/aashman/warehouseb/model/CSVDeal.class

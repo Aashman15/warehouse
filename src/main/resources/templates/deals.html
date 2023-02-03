@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Warehouse | Valid Deals</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+</head>
+<body>
+
+<nav th:replace="~{navbar}">
+
+</nav>
+
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+        <th>Deal Date</th>
+        <th>Amount</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="deal, iter: ${deals}">
+        <th th:text="${iter.index + 1}"></th>
+        <td th:text="${deal.fromCurrency}"></td>
+        <td th:text="${deal.toCurrency}"></td>
+        <td th:text="${deal.dealDate}"></td>
+        <td th:text="${deal.amount}"></td>
+    </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>
